@@ -23,6 +23,10 @@ pip install -r requirements.txt
 # Alternatively, one can just run the following command
 pip install git+https://github.com/miladmozafari/SpykeTorch.git
 ```
+To download and process the N-Caltech101 dataset:
+```
+python scripts/download_ncaltech101.py
+```
 
 **Scripts info:**
  - [`MozafariShallow.py`](MozafariShallow.py): Reimplementation of the paper "First-Spike-Based Visual Categorization Using Reward-Modulated STDP" (https://ieeexplore.ieee.org/document/8356226/).
