@@ -15,14 +15,14 @@ def get_requirements():
 
     
 setuptools.setup(
-    name="SpykeTorch-Potatony-tdn", # Replace with your own username
+    name="SpykeTorch-potatonyliu", # Replace with your own username
     version=version,
-    author="miladmozafari",
+    author="potatonyliu",
     author_email="tony.m.liu@outlook.com",
     description="High-speed simulator of convolutional spiking neural networks with at most one spike per neuron.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Potatony-tdn", # write github url,
+    url="https://github.com/potatonyliu", # write github url,
     packages=setuptools.find_packages(),
     install_requires=get_requirements(),
     python_requires='>=3.6',
